@@ -36,11 +36,6 @@ input[type="checkbox"] {
     </style>
 </head>
 <body>
-    <div class="nav">
-        <a href="/">Pendaftaran</a>
-        <a href="/aspirasi" class="active">Aspirasi</a>
-    </div>
-
     <div class="container">
         <h2>Kotak Aspirasi</h2>
         @if(session('success')) <p class="success">{{ session('success') }}</p> @endif

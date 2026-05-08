@@ -17,6 +17,7 @@
     <div class="nav">
         <a href="/" class="active">Pendaftaran</a>
         <a href="/aspirasi">Aspirasi</a>
+        <a href="{{ route('login') }}">Login Admin</a>
     </div>
 
     <div class="container">
